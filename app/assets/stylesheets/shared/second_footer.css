@@ -1,0 +1,13 @@
+.second-footer {
+  width: 100%;
+  min-width: 800px;
+  height: 200px;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.copyright {
+  width: 185px;
+  height: 49px;
+  margin: 0 auto;
+}
