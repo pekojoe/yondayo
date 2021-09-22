@@ -1,9 +1,10 @@
 .second-footer {
   width: 100%;
   min-width: 800px;
-  height: 200px;
-  background-color: antiquewhite;
+  height: 130px;
+  background-color: #FDF9EF;
   display: flex;
+  align-items: center;
 }
 
 .copyright {
