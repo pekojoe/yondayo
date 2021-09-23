@@ -13,3 +13,5 @@
  *= require_tree .
  *= require_self
  */
+
+ /* 最後の方にあるrequire_treeによりstylesheets内の全てのcssが読み込まれる */

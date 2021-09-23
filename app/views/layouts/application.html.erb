@@ -2,11 +2,13 @@
 <html>
   <head>
     <title>Yondayo</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <%= csrf_meta_tags %> <%# Railsアプリ外部からの不正アクセスに対処するためのHTMLタグ %>
+    <%= csp_meta_tag %> <%# Content Security Policy(CSP)に関するタグ %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%# stylesheet_link_tagメソッドでapp/assets/stylesheets/application.cssを読み込む %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%# app/javascript/packs/application.js を読み込む%>
   </head>
 
   <body>
