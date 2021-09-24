@@ -87,9 +87,9 @@
   margin: 0 auto;
 }
 
-.register-red-btn {
+.register-orange-btn {
   width: 100%;
-  background: #ffa300;
+  background-color: #ffa300;
   border: 1px solid #ffa300;
   color: #fff;
   line-height: 48px;
